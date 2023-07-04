@@ -1,0 +1,80 @@
+Flutter is a plateform using language dart Day 1:
+app:
+1. desktop
+2. webapp
+3. mobapp
+
+Setup of flutter
+
+Flutter download:
+https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.10.5-stable.zip
+
+
+Requirements:
+https://docs.flutter.dev/get-started/install/windows
+
+git for windows
+https://github.com/git-for-windows/git/releases/download/v2.41.0.windows.1/Git-2.41.0-64-bit.exe
+
+
+extract path: no special character in flutter
+C:\Users\DeLL\Downloads\flutter_windows_3.10.5-stable.zip
+
+create new folder in c drive and then extract flutter in that
+---------------------------------------------------------
+Dev --> dart --> flutter
+
+Run App in android
+---------------------------------
+
+
+
+code(dart) -->flutter -----Android compile(build)---Run App(apk)
+
+Run App in ios
+---------------------------------
+
+code(dart) -->flutter -----xcode compile(build)---Run App(apk)
+
+x code doesn't work on windows but it work on apple laptop
+
+
+--------------------------------------------------------
+set environment variable
+
+C:\mymobileapp\flutter\bin  ----to work in cmd
+
+-----------------------------------------------------
+//check in local system as a doctor
+flutter doctor 
+
+//dart code is set, flutter is set now set android sdk
+ https://developer.android.com/studio/index.html
+  
+android studio path
+IDE = C:\Program Files\Android\Android Studio
+
+//its very imp to run the dart code path
+Compiler = C:\Users\DeLL\AppData\Local\Android\Sdk
+
+more actions -> sdk manager
+SDK plateform : android 13
+SDK tools : sdk command line tools
+launch the mobile phone: more actions -> virtual device manager
+
+creat device--> phone --> pixel6-->latestes os -->emulator : automatic
+
+flutter doctor
+
+1 more new device connected 
+-------------------------------------------------------------
+Visual studio download
+ https://visualstudio.microsoft.com/downloads/.
+
+--------------------------------------------------
+//Create flutter app
+flutter create firstapp
+cd firstapp
+flutter run
+r for hot reload will compile only the new code
+q for quit
